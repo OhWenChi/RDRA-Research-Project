@@ -147,11 +147,7 @@ Isotonic Calibration
 
 The resulting configuration space contains:
 
-\[
-2 \times 3 \times 3 = 18
-\]
-
-candidate configurations.
+2 × 3 × 3 = **18** candidate configurations.
 
 ---
 
