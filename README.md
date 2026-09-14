@@ -109,11 +109,9 @@ RDRA Consensus Ranking
 
 ## 5. Mathematical Formulation
 
-For candidate \(i\) and deployment criterion \(j\), let:
+For candidate *i* and deployment criterion *j*, let:
 
-\[
-r_{ij}
-\]
+**r<sub>ij</sub>**
 
 represent the criterion-specific rank.
 
