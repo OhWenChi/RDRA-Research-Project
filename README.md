@@ -168,19 +168,15 @@ If no positive reproducibility evidence is available across the criteria, the im
 
 ## 6. Equal Borda Baseline
 
-Equal Borda is retained as the principal controlled rank-aggregation baseline.
+Equal Borda is retained as the principal controlled rank‑aggregation baseline.
 
-For \(m\) deployment criteria:
+For *m* deployment criteria:
 
-\[
-w_j^{B} = \frac{1}{m}.
-\]
+**w<sub>j</sub><sup>B</sup> = 1 / m**
 
 With five deployment dimensions:
 
-\[
-w_j^{B} = 0.20.
-\]
+**w<sub>j</sub><sup>B</sup> = 0.20**
 
 Equal Borda and RDRA use the same criterion rankings and normalised Borda transformation.
 
@@ -200,47 +196,34 @@ Criterion influence is proportional to empirical ranking reproducibility.
 
 The **primary RDRA formulation** corresponds to:
 
-γ = 1
+γ = 1
 
 with:
 
-\[
-w_j^{(1)}
-=
-\frac{s_j}
-{\sum_k s_k}.
-\]
+**w<sub>j</sub><sup>(1)</sup> = s<sub>j</sub> / Σ<sub>k</sub> s<sub>k</sub>**
 
-An exploratory reliability-influence formulation is also evaluated:
+An exploratory reliability‑influence formulation is also evaluated:
 
-\[
-w_j(\gamma)
-=
-\frac{s_j^\gamma}
-{\sum_k s_k^\gamma}.
-\]
+**w<sub>j</sub>(γ) = s<sub>j</sub><sup>γ</sup> / Σ<sub>k</sub> s<sub>k</sub><sup>γ</sup>**
 
 Under this formulation:
 
-- \(\gamma=0\) corresponds to the Equal Borda limit;
-- \(\gamma=1\) corresponds to primary RDRA; and
-- \(\gamma>1\) increases the relative influence of differences in empirical reliability.
+- γ = 0 corresponds to the Equal Borda limit  
+- γ = 1 corresponds to primary RDRA  
+- γ > 1 increases the relative influence of differences in empirical reliability  
 
-A development-only search selected:
+A development‑only search selected:
 
-\[
-\gamma=3.0.
-\]
+**γ = 3.0**
 
 This configuration was locked before subsequent VQ2/VQ3 interpretation.
 
 The selected value occurs at the upper boundary of the predefined development grid and is therefore **not interpreted as globally optimal**.
 
-The primary proposed RDRA method remains the reliability-proportional formulation at:
+The primary proposed RDRA method remains the reliability‑proportional formulation at:
 
-\[
-\gamma=1.
-\]
+**γ = 1**
+
 
 ---
 
@@ -313,11 +296,7 @@ The notebook evaluates:
 
 The configuration space contains:
 
-\[
-2 \times 3 \times 3 = 18
-\]
-
-candidate configurations.
+2 × 3 × 3 = **18** candidate configurations.
 
 The final implementation uses 20 experimental seeds.
 
