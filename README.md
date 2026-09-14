@@ -268,12 +268,12 @@ RDRA-Research-Project/
 ├── SIT747_Research_Development_Artefacts_Handover_Report.pdf
 │
 ├── notebooks/
-│   ├── 01_AI4I_IPMEF_Final_Updated.ipynb
-│   ├── 02_AI4I_Statistical_Validation_Updated.ipynb
-│   ├── 03_AI4I_Robustness_and_Decision_Extension_Updated.ipynb
-│   ├── 04_CMAPSS_RUL_IPMEF_Updated.ipynb
-│   ├── 05_CMAPSS_Anomaly_Triggered_IPMEF_Updated.ipynb
-│   └── 06_RDRA_Revised_Methodology_Aligned_Refined_FINAL.ipynb
+│   ├── 01_AI4I_IPMEF_Final.ipynb
+│   ├── 02_AI4I_Statistical_Validation.ipynb
+│   ├── 03_AI4I_Robustness_and_Decision_Extension.ipynb
+│   ├── 04_CMAPSS_RUL_IPMEF.ipynb
+│   ├── 05_CMAPSS_Anomaly_Triggered_IPMEF.ipynb
+│   └── 06_RDRA_Methodology.ipynb
 │
 ├── outputs/
 │   ├── ai4i_ipmef_final_outputs/
