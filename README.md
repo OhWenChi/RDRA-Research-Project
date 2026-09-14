@@ -119,55 +119,50 @@ Rank 1 represents the most desirable candidate under that criterion.
 
 The criterion rank is transformed into a normalised Borda utility:
 
-\[
-B_{ij} = \frac{n-r_{ij}}{n-1}
-\]
+**B<sub>ij</sub> = (n − r<sub>ij</sub>) / (n − 1)**
 
-where \(n\) is the number of candidate configurations.
+where *n* is the number of candidate configurations.
+
+---
+
+### Empirical Reproducibility (LORO)
 
 The empirical reproducibility of each criterion ranking is estimated using a study-specific **Leave-One-Repetition-Out (LORO)** procedure.
 
-For each criterion \(j\) and experimental repetition \(r\):
+For each criterion *j* and experimental repetition *r*:
 
-1. repetition \(r\) is held out;
-2. a reference candidate ranking is constructed from the remaining repetitions;
-3. the held-out candidate ranking is compared with the reference ranking; and
-4. Kendall rank agreement is calculated.
+1. repetition *r* is held out  
+2. a reference candidate ranking is constructed from the remaining repetitions  
+3. the held-out candidate ranking is compared with the reference ranking  
+4. Kendall rank agreement is calculated  
 
 The criterion stability estimate is:
 
-\[
-s_j =
-\frac{1}{R}
-\sum_{r=1}^{R}
-\max(0,\tau_{jr})
-\]
+**s<sub>j</sub> = (1 / R) · Σ<sub>r=1..R</sub> max(0, τ<sub>jr</sub>)**
 
 where:
 
-- \(R\) is the number of experimental repetitions; and
-- \(\tau_{jr}\) is the Kendall agreement for criterion \(j\) and repetition \(r\).
+- *R* is the number of experimental repetitions  
+- τ<sub>jr</sub> is the Kendall agreement for criterion *j* and repetition *r*  
 
 Negative Kendall agreement is clipped to zero because inverse ordering does not constitute positive evidence of reproducibility.
 
-The primary empirical reliability weight is:
+---
 
-\[
-w_j =
-\frac{s_j}
-{\sum_k s_k}
-\]
+### Primary Empirical Reliability Weight
 
-and the final RDRA score for candidate \(i\) is:
+**w<sub>j</sub> = s<sub>j</sub> / Σ<sub>k</sub> s<sub>k</sub>**
 
-\[
-S_i =
-\sum_j w_j B_{ij}.
-\]
+---
 
-Candidates are ranked in descending order of \(S_i\).
+### Final RDRA Score
+
+**S<sub>i</sub> = Σ<sub>j</sub> w<sub>j</sub> · B<sub>ij</sub>**
+
+Candidates are ranked in descending order of **S<sub>i</sub>**.
 
 If no positive reproducibility evidence is available across the criteria, the implementation falls back to equal weighting.
+
 
 ---
 
