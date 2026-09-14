@@ -1,0 +1,35 @@
+# RDRA Research Project
+# Reliability-Aware Rank Aggregation for Deployment-Oriented
+# Predictive-Maintenance Model Selection
+#
+# Top-level Python dependencies used across the six notebooks.
+# The project was developed primarily using Google Colab.
+#
+# Exact execution metadata retained by individual experiments should
+# be consulted when strict environment reproduction is required.
+
+# Numerical computing and data processing
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+imbalanced-learn
+xgboost
+
+# Deep learning used by the C-MAPSS notebooks
+tensorflow
+
+# Statistical analysis
+statsmodels
+
+# Visualisation
+matplotlib
+
+# Model serialisation and system/environment information
+joblib
+psutil
+
+# Explainability used by the AI4I experimental notebook
+shap
