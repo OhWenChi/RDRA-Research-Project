@@ -77,11 +77,7 @@ VQ3 evaluates whether the resulting candidate shortlist remains useful across ch
 
 The central conceptual distinction in RDRA is:
 
-\[
-\text{Empirical Reliability Weight}
-\neq
-\text{Stakeholder Preference Weight}
-\]
+**Empirical Reliability Weight ≠ Stakeholder Preference Weight**
 
 An empirical reliability weight represents the **reproducibility of a criterion-specific candidate ranking across repeated experimental evidence**.
 
