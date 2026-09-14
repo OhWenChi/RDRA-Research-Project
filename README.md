@@ -119,7 +119,7 @@ Rank 1 represents the most desirable candidate under that criterion.
 
 The criterion rank is transformed into a normalised Borda utility:
 
-**B<sub>ij</sub> = (n − r<sub>ij</sub>) / (n − 1)**
+\[ B_{ij} = \frac{n - r_{ij}}{n - 1} 
 
 where *n* is the number of candidate configurations.
 
