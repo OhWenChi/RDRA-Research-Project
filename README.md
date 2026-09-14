@@ -211,9 +211,7 @@ Criterion influence is proportional to empirical ranking reproducibility.
 
 The **primary RDRA formulation** corresponds to:
 
-\[
-\gamma=1
-\]
+γ = 1
 
 with:
 
